@@ -32,10 +32,10 @@ toolbox enter flutter-toolbx
 ### Creating an Android Virtual Device
 (from within the the toolbox)
 
-First, download the relevant system image (you can see all images by running `sdkmanager --list` and looking for the entries that start `system-images;`):
+First, download the relevant system image and associated platform (you can see the options by running `sdkmanager --list`):
 
 ```
-sdkmanager "system-images;android-32;google_apis;x86_64"
+sdkmanager "system-images;android-32;google_apis;x86_64" "platforms;android-32"
 ```
 
 Then create an avd (Android Virtual Device):
