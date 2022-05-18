@@ -10,12 +10,13 @@ Stuffing all of Flutter's "stuff" in a container allows us to keep our computers
 ## How to use
 
 ### Prerequisites
+* Toolbx (natch), which comes pre-installed on Silverblue.
+  * On Fedora: `dnf install toolbox`
 * libvirt must be installed on the host:
   * Silverblue: `rpm-ostree install libvirt` (then reboot)
   * Fedora: `dnf install libvirt`
 * Owen Taylor's [Toolbox VS Code Integration](https://github.com/owtaylor/toolbox-vscode) is recommended..
 * ..as is the [Visual Studio Code Flatpak](https://flathub.org/apps/details/com.visualstudio.code).
-
 
 ### Creating a new container
 
