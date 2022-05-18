@@ -35,7 +35,7 @@ toolbox enter flutter-toolbx
 First, download the relevant system image (you can see all images by running `sdkmanager --list` and looking for the entries that start `system-images;`):
 
 ```
-sdkmanager "system images;android-31;google_apis;x86_64"
+sdkmanager "system-images;android-32;google_apis;x86_64"
 ```
 
 Then create an avd (Android Virtual Device):
