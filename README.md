@@ -20,7 +20,7 @@ Stuffing all of Flutter's "stuff" in a container allows us to keep our computers
 ### Creating a new container
 
 ```
-toolbox create -i jamesbelchamber/flutter-toolbx
+toolbox create -i docker.io/jamesbelchamber/flutter-toolbx
 ```
 
 ### Entering your new container
